@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(211, 223, 223);
+}
+.hover-button{
+    color: #fff;
+    background-color: #e74040;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.container{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+}
+.dialog-box{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 158px;
+    z-index: 1;
+}
+.dialog-box a{
+    color: #000;
+    text-decoration: none;
+    
+}
+.dialog-box ul li{
+    list-style: none;
+    padding:0 0px 10px 20px;
+    justify-content: left;
+}
+.dialog-box ul{
+    padding-left: 0;
+}
+
+.dialog-box a:hover{
+    background-color: transparent;
+    color: #c93939;
+    
+}
+.container:hover .dialog-box{
+    display: block;
+}
